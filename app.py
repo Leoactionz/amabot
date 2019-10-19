@@ -40,10 +40,10 @@ TRAINER = ChatterBotCorpusTrainer(EN_BOT)
 TRAINER.train(
     "chatterbot.corpus.english.greetings",
     "chatterbot.corpus.english.conversations",
-    "./data/macorpus/"
+    # "./data/macorpus/"
 )
 
-TRAINER.train('chatterbot.corpus.english')
+# TRAINER.train('chatterbot.corpus.english')
 
 
 
