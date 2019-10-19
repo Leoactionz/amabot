@@ -27,8 +27,8 @@ EN_BOT = ChatBot("Chatterbot",
                       logic_adapters=[
                           {
                               'import_path': 'chatterbot.logic.BestMatch',
-                              'threshold': 0.85,
-                              'default_response': 'I am sorry, but I do not understand.'
+                              'threshold': 0.90,
+                              'default_response': 'I am sorry, but I do not understand. Try something else'
                               }
                           ]
                       )
@@ -37,8 +37,14 @@ TRAINER = ChatterBotCorpusTrainer(EN_BOT)
 
 
 # For training the corpus data
+TRAINER.train(
+    "chatterbot.corpus.english.greetings",
+    "chatterbot.corpus.english.conversations",
+    "./data/macorpus/"
+)
+
 TRAINER.train('chatterbot.corpus.english')
-TRAINER.train("./data/macorpus/")
+
 
 
 @APP.route("/")
