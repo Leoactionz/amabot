@@ -13,6 +13,7 @@ develop-eggs/
 dist/
 downloads/
 viron/
+.vscode/
 eggs/
 .eggs/
 lib/
