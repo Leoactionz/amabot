@@ -11,7 +11,7 @@
 #### Web ChatBot using Flask and [ChatterBot](https://github.com/gunthercox/ChatterBot).
 #### [Visit AMA](https://amaburt.herokuapp.com)
 
-Test this out:
+Try this out:
 - Hi there!
 - Greetings!
 - How was your day
