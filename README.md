@@ -9,6 +9,7 @@
 > # AMA ChatBot
 
 #### Web ChatBot using Flask and [ChatterBot](https://github.com/gunthercox/ChatterBot).
+#### [Visit AMA](https://amaburt.herokuapp.com)
 
 ## Guide:
  1. Install Python, Flask, SQLAlchemy, and ChatterBot (either manually, or run `pip install -r requirements.txt`).
